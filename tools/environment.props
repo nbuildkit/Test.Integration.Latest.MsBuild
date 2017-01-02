@@ -39,9 +39,10 @@
         **** SERVER PATHS ****
     -->
     <PropertyGroup>
-        <ArtifactsServerPath>${DirBuildTempTestLatestCSharp}\artifacts</ArtifactsServerPath>
-        <NugetFeedPath>${DirBuildTempTestLatestCSharp}\nuget</NugetFeedPath>
-        <SymbolServerPath>${DirBuildTempTestLatestCSharp}\symbols</SymbolServerPath>
+        <!-- All provided by command line parameters -->
+        <ArtifactsServerPath>UNDEFINED</ArtifactsServerPath>
+        <NugetFeedPath>UNDEFINED</NugetFeedPath>
+        <SymbolServerPath>UNDEFINED</SymbolServerPath>
     </PropertyGroup>
 
 
