@@ -632,7 +632,7 @@
                         }
                         catch(Exception e)
                         {
-                            Log.LogError(e.ToString());
+                            Version = MinimumVersion;
                         }
 
                         // Log.HasLoggedErrors is true if the task logged any errors -- even if they were logged
