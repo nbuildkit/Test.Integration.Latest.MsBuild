@@ -39,9 +39,10 @@
         **** SERVER PATHS ****
     -->
     <PropertyGroup>
-        <ArtifactsServerPath>${DirBuildTempTestLatestCSharp}\artifacts</ArtifactsServerPath>
-        <NugetFeedPath>${DirBuildTempTestLatestCSharp}\nuget</NugetFeedPath>
-        <SymbolServerPath>${DirBuildTempTestLatestCSharp}\symbols</SymbolServerPath>
+        <!-- All provided by command line parameters -->
+        <ArtifactsServerPath>UNDEFINED</ArtifactsServerPath>
+        <NugetFeedPath>UNDEFINED</NugetFeedPath>
+        <SymbolServerPath>UNDEFINED</SymbolServerPath>
     </PropertyGroup>
 
 
@@ -59,5 +60,8 @@
     <PropertyGroup>
         <!-- Defines whether the current script file has been loaded / imported or not -->
         <ExistsEnvironmentSettings>true</ExistsEnvironmentSettings>
+
+        <!-- Defines the version number of the configuration file -->
+        <NBuildKitConfigurationVersion>1.0</NBuildKitConfigurationVersion>
     </PropertyGroup>
 </Project>
